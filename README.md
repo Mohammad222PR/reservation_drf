@@ -1,5 +1,7 @@
+# Reservation api 🚀
 
-## Technology used
+
+## Technology used ⚙
 <div align="center">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="45" alt="python logo"  />
   <img width="60" />
@@ -13,14 +15,14 @@
 
 <hr>
 
-## About
+## About 📃:
 
 This project is for strengthening the skills of Django-testing-clean code-design pattern-optimal code and safe code.
 This project is for an appointment booking site for the patient, which consists of different departments and has many challenges and can empower you.
 
 <hr>
 
-## How use
+## How use 🤔:
 
 first install docker on youre syestem from https://docs.docker.com/engine/install/
 <hr>
@@ -42,14 +44,14 @@ you can run server and get reponse from code
 
 <hr>
 
-## Alert
+## Alert 🚨:
 Do not forget to be connected to a proxy or VPN
 <hr>
 <br>
 
 <hr>
 
-## What to do if it doesn't work?
+## What to do if it doesn't work? 😣:
 you can send youre error to my <a href='#social'>email</a>
 
 <hr>
@@ -58,14 +60,15 @@ you can send youre error to my <a href='#social'>email</a>
 <hr>
 
 
-## Point:
+## Point 🤩:
 If you like, you can take part in the development of this project to measure your skills and help the programming community. If you want to do this, send me your changes in the form of ``` pull request ``` so that I can merge them. Thank you.
 <hr>
 
 <br>
 <br>
 <hr>
-## Social:
+
+## Social 📞:
 
 ###
 
