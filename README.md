@@ -13,8 +13,8 @@
   <img width="70" />
 </div>
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="70"  alt="vscode logo" width="70"  />
-   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="70"  alt="mysql logo" width="70"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="60"  alt="vscode logo" width="60"  />
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="60"  alt="mysql logo" width="60"  />
 
 
 <hr>
