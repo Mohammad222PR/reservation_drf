@@ -51,7 +51,6 @@ Do not forget to be connected to a proxy or VPN
 
 ## What to do if it doesn't work?
 you can send youre error to my <a href='#social'>email</a>
-<hr>
 <br>
 <hr>
 
