@@ -12,11 +12,13 @@
 </div>
 
 <hr>
+
 ## About
 This project is for strengthening the skills of Django-testing-clean code-design pattern-optimal code and safe code.
 This project is for an appointment booking site for the patient, which consists of different departments and has many challenges and can empower you.
 
 <hr>
+
 ## How use
 first install docker on youre syestem from https://docs.docker.com/engine/install/
 <hr>
@@ -25,6 +27,7 @@ run ```docker-compose up```
 if you run ``` docker-compose up ``` you can get the project image and container to run Django commands on Docker
 
 <hr>
+
 after that
 
 run ``` docker-compose exec backend sh -c "python manage.py runserver" ```
@@ -35,6 +38,7 @@ you can run server and get reponse from code
 <br>
 
 <hr>
+
 ## Alert
 Do not forget to be connected to a proxy or VPN
 <hr>
@@ -45,6 +49,7 @@ you can send youre error to my <a href='#social'>email</a>
 <hr>
 <br>
 <br>
+<hr>
 ## Social
 
 ###
