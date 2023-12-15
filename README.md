@@ -33,9 +33,10 @@ run ``` docker-compose exec backend sh -c "python manage.py runserver" ```
 if you run ``` docker-compose exec backend sh -c "python manage.py runserver" ```
 you can run server and get reponse from code 
 <hr>
-### Alert
+## Alert
 Do not forget to be connected to a proxy or VPN
-#### What to do if it doesn't work?
+
+## What to do if it doesn't work?
 you can send youre error to my <a href='#social'>email</a>
 
 ## Social
