@@ -6,13 +6,13 @@
 ## Developers 👨‍💻
 
 
-### 1️⃣<a href='https://github.com/YasinSamooei'>YasinSamooei 🙋‍♂️</a><p>``` Back-Eend developer which django and teacher  ```</P>
+### 1️⃣<a href='https://github.com/YasinSamooei'>YasinSamooei 🙋‍♂️</a><p>``` Back-Eend developer whith django and teacher  ```</P>
 <hr>
 
-### 2️⃣<a href='https://github.com/Mohammad222PR'>Mohammad hossein eslami 🙋‍♂️</a><p>``` Back-Eend developer which django and Prject manage ment and contorl and user DevOps tools ```</P>
+### 2️⃣<a href='https://github.com/Mohammad222PR'>Mohammad hossein eslami 🙋‍♂️</a><p>``` Back-Eend developer whith django and Prject manage ment and contorl and user DevOps tools ```</P>
 <hr>
 
-###  3️⃣<a href='https://github.com/Ehsan-Fouladi'>Ehsna Foladi 🙋‍♂️</a><p>``` Back-Eend developer which django and front end devloper which react and next.js ```</P>
+###  3️⃣<a href='https://github.com/Ehsan-Fouladi'>Ehsna Foladi 🙋‍♂️</a><p>``` Back-Eend developer whith django and front end devloper which react and next.js ```</P>
 <hr>
 <br>
 
