@@ -4,16 +4,16 @@
 ## Technology used ⚙
 <div align="center">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="60" alt="python logo"  />
-  <img width="60" />
+  <img width="60"/>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="60" alt="django logo"  />
-  <img width="60" />
+  <img width="60"/>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="60" alt="docker logo"  />
-  <img width="60" />
+  <img width="60"/>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="60"  alt="vscode logo" 
-  width="60"  />
+  width="60"/>
 
   
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="60"  alt="mysql logo" 
