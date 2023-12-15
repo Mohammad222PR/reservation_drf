@@ -47,11 +47,14 @@ This project is for an appointment booking site for the patient, which consists 
 <p>first install docker on youre syestem from https://docs.docker.com/engine/install/
 </p>
 <hr>
-
+<p>
+After that
+  
 run ``` docker-compose up ```
 
-<p>if you run ``` docker-compose up ``` you can get the project image and container to run Django commands on Docker
+if you run ``` docker-compose up ``` you can get the project image and container to run Django commands on Docker
 
+<hr>
 
 after that
 
