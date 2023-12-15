@@ -59,12 +59,13 @@ Do not forget to be connected to a proxy or VPN
 you can send youre error to my <a href='#social'>email</a>
 
 <hr>
+<br>
+<br>
 
 ## Point 🤩:
 If you like, you can take part in the development of this project to measure your skills and help the programming community. If you want to do this, send me your changes in the form of ``` pull request ``` so that I can merge them. Thank you.
 <hr>
 
-<br>
 <br>
 <hr>
 
@@ -73,7 +74,7 @@ If you like, you can take part in the development of this project to measure you
 ###
 
 
-<div align="center" id='social'>
+<div align="center" id='social' class='social'>
   <a href="https://www.linkedin.com/in/techno-code-30a076269/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a>
