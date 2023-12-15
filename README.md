@@ -16,8 +16,6 @@
 This project is for strengthening the skills of Django-testing-clean code-design pattern-optimal code and safe code.
 This project is for an appointment booking site for the patient, which consists of different departments and has many challenges and can empower you.
 
-
-
 ## How use
 first install docker on youre syestem from https://docs.docker.com/engine/install/
 <hr>
@@ -35,10 +33,12 @@ you can run server and get reponse from code
 <hr>
 <br>
 <br>
+
 ## Alert
 Do not forget to be connected to a proxy or VPN
 <hr>
 <br>
+
 ## What to do if it doesn't work?
 you can send youre error to my <a href='#social'>email</a>
 <hr>
@@ -48,12 +48,6 @@ you can send youre error to my <a href='#social'>email</a>
 
 ###
 
-<br clear="both">
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mohammad222PR&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=github_dark&locale=en&hide_border=true&order=1" height="170" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Mohammad222PR&locale=en&hide_title=false&layout=compact&card_width=338&langs_count=50&theme=github_dark&hide_border=true&order=2" height="168" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=Mohammad222PR&locale=en&mode=weekly&theme=github_dark&hide_border=true&border_radius=5&order=3" height="170" alt="streak graph"  />
-</div>
 
 <div align="center">
   <a href="https://www.linkedin.com/in/techno-code-30a076269/" target="_blank">
