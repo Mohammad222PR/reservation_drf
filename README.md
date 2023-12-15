@@ -2,13 +2,13 @@
 ## Technology used
 <div align="center">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="45" alt="python logo"  />
-  <img width="11" />
+  <img width="30" />
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="45" alt="django logo"  />
-  <img width="11" />
+  <img width="30" />
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="45" alt="docker logo"  />
-  <img width="11" />
+  <img width="30" />
 </div>
 
 # Reservation Api 
