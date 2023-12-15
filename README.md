@@ -51,11 +51,12 @@ Do not forget to be connected to a proxy or VPN
 
 ## What to do if it doesn't work?
 you can send youre error to my <a href='#social'>email</a>
+
+<hr>
+<br>
 <br>
 <hr>
 
-<br>
-<hr>
 
 ## Point:
 If you like, you can take part in the development of this project to measure your skills and help the programming community. If you want to do this, send me your changes in the form of ``` pull request ``` so that I can merge them. Thank you.
@@ -63,7 +64,7 @@ If you like, you can take part in the development of this project to measure you
 
 <br>
 <br>
-
+<hr>
 ## Social:
 
 ###
