@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+  # service backend for handle backend development
+  backend:
+    build: .
+    container_name: drf
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./core:/app
+    ports:
+      - "8000:8000"
+    environment:
+      - SECRET_KEY= 'django-insecure-o6be1sh8^r&)v5$saoc!#36wkdf&-h^nfee3azo_o=7a=)twr3'
+      - DEBUG=True
+      

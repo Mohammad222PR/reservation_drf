@@ -1,0 +1,22 @@
+
+# general modules
+Django==4.2.6
+python-decouple==3.8
+djangorestframework
+Pillow
+
+# swagger 
+drf-spectacular==0.26.5
+urllib3==1.26.15
+python-decouple
+
+# third party modules
+markdown       
+django-filter
+drf-yasg[validation]
+djangorestframework-simplejwt
+
+
+# refactor modules
+black
+flake8
