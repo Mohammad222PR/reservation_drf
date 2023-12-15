@@ -6,8 +6,10 @@
 
 ### <a href='https://github.com/YasinSamooei'>YasinSamooei</a><p>``` Back-Eend developer which django ```</P>
 <hr>
+
 ### <a href='https://github.com/Mohammad222PR'>Mohammad hossein eslami</a><p>``` Back-Eend developer which django ```</P>
 <hr>
+
 ###  <a href='https://github.com/Ehsan-Fouladi'>Ehsna Foladi</a><p>``` Back-Eend developer which django ```</P>
 <hr>
 <br>
@@ -34,21 +36,21 @@
 
 ## About 📃:
 
-This project is for strengthening the skills of Django-testing-clean code-design pattern-optimal code and safe code.
-This project is for an appointment booking site for the patient, which consists of different departments and has many challenges and can empower you.
+<p>This project is for strengthening the skills of Django-testing-clean code-design pattern-optimal code and safe code.
+This project is for an appointment booking site for the patient, which consists of different departments and has many challenges and can empower you.</p>
 
 <hr>
 
 ## How use 🤔:
 
-first install docker on youre syestem from https://docs.docker.com/engine/install/
+<p>first install docker on youre syestem from https://docs.docker.com/engine/install/
+</p>
 <hr>
 
 run ``` docker-compose up ```
 
-if you run ``` docker-compose up ``` you can get the project image and container to run Django commands on Docker
+<p>if you run ``` docker-compose up ``` you can get the project image and container to run Django commands on Docker
 
-<hr>
 
 after that
 
@@ -56,25 +58,27 @@ run ``` docker-compose exec backend sh -c "python manage.py runserver" ```
 
 if you run ``` docker-compose exec backend sh -c "python manage.py runserver" ```
 you can run server and get reponse from code 
+</p>
 <hr>
 
 <hr>
 
 ## Alert 🚨:
-Do not forget to be connected to a proxy or VPN
+<p>Do not forget to be connected to a proxy or VPN
+</p>
 <hr>
 
 <hr>
 
 ## What to do if it doesn't work? 😣:
-you can send youre error to my <a href='#social'>email</a>
-
+<p>you can send youre error to my <a href='#social'>email</a>
+</p>
 <hr>
 <br>
 <br>
 
 ## Point 🤩:
-If you like, you can take part in the development of this project to measure your skills and help the programming community. If you want to do this, send me your changes in the form of ``` pull request ``` so that I can merge them. Thank you.
+<p>If you like, you can take part in the development of this project to measure your skills and help the programming community. If you want to do this, send me your changes in the form of ``` pull request ``` so that I can merge them. Thank you.</p>
 <hr>
 
 <br>
