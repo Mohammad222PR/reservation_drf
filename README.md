@@ -46,14 +46,12 @@ run ``` docker-compose exec backend sh -c "python manage.py runserver" ```
 if you run ``` docker-compose exec backend sh -c "python manage.py runserver" ```
 you can run server and get reponse from code 
 <hr>
-<br>
 
 <hr>
 
 ## Alert 🚨:
 Do not forget to be connected to a proxy or VPN
 <hr>
-<br>
 
 <hr>
 
