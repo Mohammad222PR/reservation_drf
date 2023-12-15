@@ -66,7 +66,6 @@ you can run server and get reponse from code
 ## Alert 🚨:
 <p>Do not forget to be connected to a proxy or VPN
 </p>
-<hr>
 
 <hr>
 
