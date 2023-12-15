@@ -33,16 +33,29 @@ run ``` docker-compose exec backend sh -c "python manage.py runserver" ```
 if you run ``` docker-compose exec backend sh -c "python manage.py runserver" ```
 you can run server and get reponse from code 
 <hr>
+<br>
+<br>
 ## Alert
 Do not forget to be connected to a proxy or VPN
-
+<hr>
+<br>
 ## What to do if it doesn't work?
 you can send youre error to my <a href='#social'>email</a>
-
+<hr>
+<br>
+<br>
 ## Social
+
 ###
 
-<div align="center" id='social'>
+<br clear="both">
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Mohammad222PR&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=github_dark&locale=en&hide_border=true&order=1" height="170" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Mohammad222PR&locale=en&hide_title=false&layout=compact&card_width=338&langs_count=50&theme=github_dark&hide_border=true&order=2" height="168" alt="languages graph"  />
+  <img src="https://streak-stats.demolab.com?user=Mohammad222PR&locale=en&mode=weekly&theme=github_dark&hide_border=true&border_radius=5&order=3" height="170" alt="streak graph"  />
+</div>
+
+<div align="center">
   <a href="https://www.linkedin.com/in/techno-code-30a076269/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a>
@@ -52,4 +65,14 @@ you can send youre error to my <a href='#social'>email</a>
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="52" height="40" alt="facebook logo"  />
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/microsoft-outlook/default.svg" width="52" height="40" alt="microsoft-outlook logo"  />
 
+  
+  <hr>
+ 
+
+
+</div>
+
+
+
 ###
+
