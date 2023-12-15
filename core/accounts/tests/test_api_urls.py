@@ -1,8 +1,13 @@
-# from django.test import TestCase
-# from django.urls import reverse, resolve
-# from accounts.api.v1.views import Index
+from django.urls import reverse
+import pytest
+from rest_framework.test import APIClient
 
-# class TestIndexUrls(TestCase):
-#     def test_accounts_index_urls_view(self):
-#         url = reverse('accounts:index')
-#         self.assertEqual(resolve(url).func.view_class, Index)
+
+# test for index urls
+@pytest.mark.django_db
+class TestIndexUrls:
+    def test_accounts_index_urls_view(self):
+        client = APIClient()
+        url = reverse("accounts:api-v1:index")
+        response = client.get(url)
+        assert response.status_code == 200

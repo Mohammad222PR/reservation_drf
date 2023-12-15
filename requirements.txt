@@ -17,6 +17,8 @@ drf-yasg[validation]
 djangorestframework-simplejwt
 
 
-# refactor modules
+# refactor modules and test
 black
 flake8
+pytest
+pytest-django
