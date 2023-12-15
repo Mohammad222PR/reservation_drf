@@ -3,7 +3,7 @@
 <br>
 <hr>
 
-## Programers 👨‍💻
+## Developers 👨‍💻
 
 ### 1️⃣<a href='https://github.com/YasinSamooei'>YasinSamooei 🙋‍♂️</a><p>``` Back-Eend developer which django and teacher  ```</P>
 <hr>
