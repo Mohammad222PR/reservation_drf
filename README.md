@@ -44,12 +44,13 @@ Do not forget to be connected to a proxy or VPN
 <hr>
 <br>
 
+<hr>
 ## What to do if it doesn't work?
 you can send youre error to my <a href='#social'>email</a>
 <hr>
 <br>
-<br>
 <hr>
+
 ## Social
 
 ###
