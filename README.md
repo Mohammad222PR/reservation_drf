@@ -18,8 +18,8 @@
   
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="60"  alt="mysql logo" 
   width="60"  />
-
 </div>
+
 <hr>
 
 ## About 📃:
