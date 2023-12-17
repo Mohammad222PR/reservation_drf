@@ -4,4 +4,4 @@ from rest_framework.response import Response
 
 class Index(APIView):
     def get(self, request):
-        return Response('hi')
+        return Response("hi")
