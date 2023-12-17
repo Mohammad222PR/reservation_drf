@@ -4,7 +4,7 @@ services:
   # service backend for handle backend development
   backend:
     build: .
-    container_name: drf # Continar name
+    container_name: backend3 # Continar name
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - ./core:/app
