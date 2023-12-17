@@ -41,7 +41,7 @@ APPS = [
 ]
 
 PACKAGE = [
-    # "rest_framework.authtoken",
+    "rest_framework.authtoken",
     "rest_framework",
     "drf_yasg",
     # "django_filters",
