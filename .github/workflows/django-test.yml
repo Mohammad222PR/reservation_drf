@@ -14,7 +14,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Setup docker
+    - name: Setup Docker-Compose
       run: docker-compose up -d
-    - name: Test Django
+    - name: Run Tests
       run: docker exec backend sh -c "pytest ."
+      
