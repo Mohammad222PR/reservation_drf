@@ -74,7 +74,7 @@ you can run server and get reponse from code
 <hr>
 
 ## What to do if it doesn't work? 😣:
-<p>you can send youre error to my <a href='#social'>email</a>
+<p>you can send youre error to  <a href='https://github.com/Mohammad222PR/advance-blog/issues'>issues</a>
 </p>
 <hr>
 <br>
