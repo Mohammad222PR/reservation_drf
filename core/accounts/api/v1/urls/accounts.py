@@ -3,5 +3,6 @@ from .. import views
 
 
 urlpatterns = [
-    path("index", views.Index.as_view(), name="index"),
+    path('activation/confrim', views.RegisterLoginSerializer.as_view(), name='activation-user'),
+    path('activation/resend', views.ResendActivationEmailView.as_view(), name='activation-user-resend')
 ]

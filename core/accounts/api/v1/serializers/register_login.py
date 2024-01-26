@@ -1,3 +1,4 @@
+from django.shortcuts import get_object_or_404
 from rest_framework import serializers
 from django.contrib.auth.password_validation import validate_password
 from core.accounts.models import User
@@ -27,5 +28,21 @@ class RegisterLoginSerializer(serializers.Serializer):
 
 
 
-class ResendActivationSerializer(serializers.ModelSerializer):
-    pass
+class ResendActivationEmailSSerializer(serializers.Serializer):
+    email = serializers.EmailField(required=True, write_only=True)
+
+    def validate(self, attrs):
+        email = attrs.get('email')
+
+        try:
+            user = get_object_or_404(User, email=email)
+        except User.DoesNotExist:
+            raise serializers.ValidationError({'detail': 'email does not exist'})
+
+        if user.is_active:
+            raise serializers.ValidationError({'detail': 'you are already activated'})
+
+        attrs['user'] = user
+
+
+
