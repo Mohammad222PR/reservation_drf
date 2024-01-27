@@ -27,7 +27,6 @@ class RegisterLoginSerializer(serializers.Serializer):
         return User.objects.create(**validated_data)
 
 
-
 class ResendActivationEmailSSerializer(serializers.Serializer):
     email = serializers.EmailField(required=True, write_only=True)
 
@@ -45,4 +44,7 @@ class ResendActivationEmailSSerializer(serializers.Serializer):
         attrs['user'] = user
 
 
+class LoginSerializer(serializers.Serializer):
+    email = serializers.EmailField(write_only=True, required=True)
+    password = serializers.CharField(write_only=True, max_length=128, required=True)
 

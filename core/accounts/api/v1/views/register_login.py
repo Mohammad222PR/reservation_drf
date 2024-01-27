@@ -1,3 +1,4 @@
+from django.contrib.auth import authenticate, login
 from mail_templated import EmailMessage
 from django.shortcuts import get_object_or_404
 from rest_framework import generics, status
@@ -62,3 +63,16 @@ class ResendActivationEmailView(APIView):
         refresh = RefreshToken.for_user(user)
         return str(refresh.access_token)
 
+
+class LoginView(APIView):
+    serializer_class = LoginSerializer
+
+    def post(self, request):
+        serializers = self.serializer_class(data=request.data)
+        if serializers.is_valid():
+            va = serializers.validated_data
+            user = authenticate(email=va['email'], password=va['password'])
+            if user is not None:
+                login(request, user)
+                return Response(data={'detail': 'you login successfully.'}, status=status.HTTP_200_OK)
+            return Response(data=serializers.errors, status=status.HTTP_400_BAD_REQUEST)
