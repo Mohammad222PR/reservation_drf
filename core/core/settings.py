@@ -44,9 +44,11 @@ PACKAGE = [
     "drf_yasg",
     "django_filters",
     "rest_framework_simplejwt",
+    "mail_templated"
 ]
 APP = [
     'accounts.apps.AccountsConfig',
+    'panel.apps.PanelConfig',
 ]
 
 MODULE = [
