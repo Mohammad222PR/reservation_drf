@@ -36,6 +36,8 @@ ALLOWED_HOSTS = config(
 
 APPS = [
     "accounts.apps.AccountsConfig",
+    'django_cleanup.apps.CleanupConfig',
+    "blog.apps.BlogConfig"
 ]
 
 PACKAGE = [
@@ -44,12 +46,11 @@ PACKAGE = [
     "drf_yasg",
     "django_filters",
     "rest_framework_simplejwt",
-    "mail_templated"
+    "mail_templated",
+    'ckeditor',
+
 ]
-APP = [
-    'accounts.apps.AccountsConfig',
-    'panel.apps.PanelConfig',
-]
+
 
 MODULE = [
 
@@ -105,6 +106,16 @@ DATABASES = {
         "NAME": BASE_DIR / "db.sqlite3",
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'reservation_api',
+#         'USER': 'root',
+#         'PASSWORD': '',
+#         'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+#         'PORT': '3306',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
@@ -156,4 +167,25 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     )
+}
+
+
+# __JWT__#
+from datetime import timedelta
+
+SIMPLE_JWT = {
+    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=2),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
+}
+
+
+# __REDIS_CONFIG__#
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://redis:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        },
+    }
 }

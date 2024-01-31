@@ -2,8 +2,8 @@ from rest_framework import generics
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.views import APIView
 
-from core.accounts.api.v1.serializers.change_pass import ChangePasswordSerializer
-from core.accounts.models import User
+from accounts.api.v1.serializers.change_pass import ChangePasswordSerializer
+from accounts.models import User
 
 
 class ChangePasswordView(generics.UpdateAPIView):
