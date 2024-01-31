@@ -8,9 +8,9 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken
 
-from core.accounts.api.v1.serializers.register_login import *
-from core.accounts.api.v1.utils import EmailSend
-from core.accounts.models import User
+from accounts.api.v1.serializers.register_login import *
+from accounts.api.v1.utils import EmailSend
+from accounts.models import User
 
 
 class RegisterUserView(generics.CreateAPIView):

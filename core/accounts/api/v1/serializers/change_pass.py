@@ -2,7 +2,7 @@ from django.contrib.auth.password_validation import validate_password
 from django.core import exceptions
 from rest_framework import serializers
 
-from core.accounts.models import User
+from accounts.models import User
 
 
 class ChangePasswordSerializer(serializers.Serializer):

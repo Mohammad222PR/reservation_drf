@@ -42,6 +42,7 @@ urlpatterns = [
     path("account/", include("accounts.urls", namespace="accounts")),
     # swagger urls
     # path('swagger<format>/', schema_view.without_ui(cache_timeout=0), name='schema-json'),
+    path('blog', include('blog.urls', namespace='blog')),
     path(
         "",
         schema_view.with_ui("swagger", cache_timeout=0),

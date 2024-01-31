@@ -16,15 +16,6 @@ class RegisterForm(forms.Form):
             raise ValidationError("This Information is not correct")
         return phone
 
-class OtpForm(forms.Form):
-    code = forms.CharField(widget= forms.PasswordInput(attrs={'class': 'form-control' , 'placeholder':'کد ارسال شده :'}) , validators=[validators.MaxLengthValidator(4)])
-    # captcha = ReCaptchaField(widget=ReCaptchaV2Checkbox , required = True)
-    def clean_code(self):
-        code = self.cleaned_data.get("code")
-        if len(code)<4:
-            raise ValidationError("this code is invalid")
-        return code
-
 class Edit_Profile_Form(forms.ModelForm):
     phone = forms.CharField(widget = forms.TextInput(attrs={'class': 'form-control' , 'placeholder':'شماره تلفن'}) , validators=[validators.MaxLengthValidator(11)] , required=False)
     class Meta:

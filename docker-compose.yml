@@ -1,7 +1,29 @@
 version: '3.9'
 
 services:
+
+#  db:
+#    image: mysql:8
+#    ports:
+#      - "3306:3306"
+#    environment:
+#      - MYSQL_DATABASE='reservation_api'
+#      - MYSQL_USER='root'
+#      - MYSQL_PASSWORD='Mo83091354'
+#      - MYSQL_ROOT_PASSWORD='Mo83091354'
+#      - MYSQL_HOST='localhost'
+#    volumes:
+#      - /tmp/app/mysqld:/var/run/mysqld
+#      - ./db:/var/lib/mysql
   # service backend for handle backend development
+  redis:
+    image: redis
+    container_name: redis6
+    command: redis-server --save 60 1 --loglevel warning
+    ports:
+      - "6379:6379"
+    restart: always
+
   backend:
     build: .
     container_name: backend3 # Continar name
@@ -14,22 +36,29 @@ services:
       - SECRET_KEY= 'django-insecure-o6be1sh8^r&)v5$saoc!#36wkdf&-h^nfee3azo_o=7a=)twr3'
       - DEBUG=True
 
-  smtp4dev:
-    image: rnwood/smtp4dev:v3
-    restart: always
-    ports:
-      # Change the number before : to the port the web interface should be accessible on
-      - '5000:80'
-      # Change the number before : to the port the SMTP server should be accessible on
-      - '25:25'
-      # Change the number before : to the port the IMAP server should be accessible on
-      - '143:143'
-    volumes:
-      # This is where smtp4dev stores the database..
-      - smtp4dev-data:/smtp4dev
-    environment:
-      - ServerOptions__HostName=smtp4dev
-
-
-volumes:
-  smtp4dev-data:
+  worker:
+    build: .
+    command: celery -A core worker --loglevel=info
+    depends_on:
+      - redis
+      - backend
+#
+#  smtp4dev:
+#    image: rnwood/smtp4dev:v3
+#    restart: always
+#    ports:
+#      # Change the number before : to the port the web interface should be accessible on
+#      - '5000:80'
+#      # Change the number before : to the port the SMTP server should be accessible on
+#      - '25:25'
+#      # Change the number before : to the port the IMAP server should be accessible on
+#      - '143:143'
+#    volumes:
+#      # This is where smtp4dev stores the database..
+#      - smtp4dev-data:/smtp4dev
+#    environment:
+#      - ServerOptions__HostName=smtp4dev
+#
+#
+#volumes:
+#  smtp4dev-data:
